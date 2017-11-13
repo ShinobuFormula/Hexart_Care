@@ -1,0 +1,1 @@
+void information(int valeurActuelle, int valeurSeuil, long tempsDetection);
