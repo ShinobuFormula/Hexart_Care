@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "param.h"
 
-/*void Chenille(int i)
+void Chenille(int i)
 {
   while(1)
   {
@@ -15,7 +15,7 @@
         
       
   } 
-}*/
+}
 void Chenille_1sur2(int i)
 {
   while(1)
@@ -40,7 +40,7 @@ void Chenille_1sur2(int i)
   }
 }
 
-/*void Chenille_1sur3(int i)
+void Chenille_1sur3(int i)
 {
   while(1)
   { 
@@ -63,6 +63,6 @@ void Chenille_1sur2(int i)
   }
   
 }
-*/
+
 
 
