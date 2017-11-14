@@ -1,4 +1,4 @@
-#include "param.h"
+#include "coeur.h"
 
 void setup()
 {
@@ -8,6 +8,7 @@ void setup()
   //Chenille(i);
   //Chenille_1sur2(i);
  //Chenille_1sur3(i);
+ //Chenille_tout(i);
 }
 void loop()
 {
