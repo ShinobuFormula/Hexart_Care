@@ -6,6 +6,7 @@ long tempsPrecedent = 0;
 
 void setup() {
   Serial.begin(9600);
+  pinMode(4, INPUT);
 }
 
 
@@ -14,7 +15,7 @@ void loop() {
   int valeurActuelle, valeurSeuil;
   long tempsDetection;
 
-  valeurActuelle = analogRead(0);
+  valeurActuelle = analogRead(4);
   valeurSeuil = 650;
 
   if (valeurActuelle > valeurSeuil) {  // on est dans la zone max
@@ -27,7 +28,7 @@ void loop() {
     }
   }
 
-  Serial.println(analogRead(0))
+  Serial.println(analogRead(4));
   valeurPrecedente = valeurActuelle;
-
+  delay(500);
 }
