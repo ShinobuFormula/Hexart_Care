@@ -9,7 +9,7 @@ void setup()
   //Chenille_1sur2(i);
  //Chenille_1sur3(i);
  //Chenille_tout(i);
- //Chenille_Ay(i);
+ Chenille_Ay(i);
 }
 void loop()
 {
