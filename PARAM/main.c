@@ -2,13 +2,20 @@
 #include <stdlib.h>
 #include "param.h"
 
+
+
 void setup()
 {
-	Chenille_1sur2();
-	Chenille_1sur3();
-}
+	int i;
+	i = 2;
+	
+	//chenille
+	chenille();
+	chenille_1sur2();
+	chenille_1sur3();
 
 void loop()
 {
 	
 }
+
