@@ -81,14 +81,25 @@ void Chenille_tout(int i)
        
       }
        delay(500);
-    
-  
-
-
-
-
-
   }
+}
+void Chenille_Ay(int i){
+  while(1)
+  { 
+     for (i = 2; i <12; i++)
+      {
+        pinMode(i,OUTPUT);
+        digitalWrite(i,HIGH);
+        delay(100);
+      }
+      for (i = 2; i <12; i++)
+      {
+        pinMode(i,OUTPUT);
+        digitalWrite(i,LOW);
+        delay(100);
+      }
+  }
+  
 }
 
 
