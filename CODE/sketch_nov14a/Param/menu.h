@@ -1,1 +1,1 @@
-void parametres(int ch);
+int parametres(int ch);

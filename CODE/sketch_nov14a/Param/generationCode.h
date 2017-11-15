@@ -1,1 +1,1 @@
-void creation_fichier();
+int creation_fichier(int ch);
