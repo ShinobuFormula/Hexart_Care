@@ -1,1 +1,0 @@
-int AleaNbr(int SenVal);
