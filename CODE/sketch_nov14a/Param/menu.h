@@ -1,1 +1,0 @@
-int parametres(int ch);
