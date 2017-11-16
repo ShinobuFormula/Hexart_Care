@@ -6,11 +6,10 @@ void setup() {
 }
 
 void loop() {
-  long temps =millis();
+  long temps = millis();
   //la variable nombre prend la valeur d'un nombre random entre 70 et 90;
   int nombre = random(70,90);
   //écrit le nombre
-
   Serial.println(nombre);
   Serial.println(";");
   Serial.println(temps);
