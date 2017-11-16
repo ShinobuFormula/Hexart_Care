@@ -6,7 +6,13 @@ void setup() {
 }
 
 void loop() {
-  long temps = millis();
+  //temps en millisecondes
+  float temps = millis();
+
+  //temps en secondes avec virgules
+  //float mil = millis();
+//  float temps = mil / 1000;
+
   //la variable nombre prend la valeur d'un nombre random entre 70 et 90;
   int nombre = random(70,90);
   //écrit le nombre dans le tableau
