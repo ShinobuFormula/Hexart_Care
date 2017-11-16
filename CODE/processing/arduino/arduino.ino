@@ -7,7 +7,7 @@ void setup() {
 
 void loop() {
   //temps en millisecondes
-  float temps = millis();
+  long temps = millis();
 
   //temps en secondes avec virgules
   //float mil = millis();
@@ -16,9 +16,9 @@ void loop() {
   //la variable nombre prend la valeur d'un nombre random entre 70 et 90;
   int nombre = random(70,90);
   //écrit le nombre dans le tableau
-  Serial.print(nombre);
+  Serial.println(nombre);
   //censé écrire un ; mais change de colonne dans le teableau
-  Serial.print(';');
+ // Serial.println(';');
   //écrit le temps dans le teableau
   Serial.println(temps);
 
