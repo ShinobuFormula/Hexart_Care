@@ -25,7 +25,7 @@ void Chenille_1sur2(int i) //Déclaration de la fonction chenille 1 sur 2
       {
         pinMode(i,OUTPUT);
         digitalWrite(i,HIGH);
-       i++;  //On incrémente i encore une fois dans la boucle comme ça 1 led sur 2 s'allume
+        i++;  //On incrémente i encore une fois dans la boucle comme ça 1 led sur 2 s'allume
       }
       delay(500);
       for (i = 2; i <12; i++)
