@@ -9,7 +9,7 @@ void Chenille(int i) //Déclaration de la fonction chenille
         {
           pinMode(i,OUTPUT); //Initialisation de la patte sur laquelle est branché LED 
           digitalWrite(i,HIGH); //On met cet patte a l'état haut (on lui envoie du courant)
-          delay(1000); //Delais de 1 seconde
+          delay(500); //Delais de 0.5 seconde
           digitalWrite(i,LOW); //On met cet patte a l'état bas (plus de courant)
         }
         
@@ -91,13 +91,13 @@ void Chenille_Ay(int i){ //le Rajout de cet fonction etait notre idée (et est o
       {
         pinMode(i,OUTPUT);
         digitalWrite(i,HIGH);
-        delay(100);
+        delay(300);
       }
       for (i = 2; i <12; i++) //On éteint toutes les LEDs une par une
       {
         pinMode(i,OUTPUT);
         digitalWrite(i,LOW);
-        delay(100);
+        delay(300);
       }
   }
   
