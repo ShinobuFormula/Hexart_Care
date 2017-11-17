@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1510908674 source:c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1510908657 source:c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\action.c
+	<stdio.h>
+	<stdlib.h>
+	"donnee.h"
+	"action.h"
+
+1510847992 source:c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\donnee.c
+
+1510847957 source:c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\menu.c
+
+1510906742 c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\donnee.h
+	<stdio.h>
+	<stdlib.h>
+
+1510906821 c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\action.h
+
+1510847939 c:\users\laporte damien\desktop\prosit\prosit\projet\backup\hexart_care\liaison_fichier_arduino\tri\menu.h
+
