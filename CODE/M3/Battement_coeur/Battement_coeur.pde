@@ -2,7 +2,7 @@
 //import le process serial
 import processing.serial.*;
 
-//declare
+//permet d'afficher un texte en dehors du fichier de base (dans battement.csv)
 PrintWriter output;
 
 //variable
