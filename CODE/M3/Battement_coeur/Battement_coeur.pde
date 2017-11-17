@@ -2,25 +2,27 @@
 //import le process serial
 import processing.serial.*;
 
-//declare
+//autorise les charactères à s'afficher dans un fichier externe (dans battement.csv)
 PrintWriter output;
 
-//variable
+//variable qui sert à recevoir ou envoyer des données
 Serial udSerial;
 
-void setup() {
-  
-  //ouvre le port que l'on utilise à un débit de 9.6 secondes
+void setup() 
+{  
+  //ouvre le port que l'on utilise à un débit de 9600 bits/s
   udSerial = new Serial(this, Serial.list()[0], 9600);
   //créé un document "battements.csv"
   output = createWriter ("Battements.csv");
 }
  void draw() {
-   //si la variable udSerial est disponible et qu'elle est supérieur à 0
-  if (udSerial.available() > 0) {
+   //prend le nombres de bytes disponible de la variable udSerial
+  if (udSerial.available() > 0) 
+  {
     //retourne toutes les données de SenVal en string
     String SenVal = udSerial.readString();
-    if (SenVal != null) {
+    if (SenVal != null) 
+    {
       //print dans le doc battements les valeurs
       output.print(SenVal);
       //affiche dans la console les battements
