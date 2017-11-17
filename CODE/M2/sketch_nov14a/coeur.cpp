@@ -9,7 +9,7 @@ void Chenille(int i) //Déclaration de la fonction chenille
         {
           pinMode(i,OUTPUT); //Initialisation de la patte sur laquelle est branché LED 
           digitalWrite(i,HIGH); //On met cet patte a l'état haut (on lui envoie du courant)
-          delay(100); //Delais de 1 seconde
+          delay(1000); //Delais de 1 seconde
           digitalWrite(i,LOW); //On met cet patte a l'état bas (plus de courant)
         }
         

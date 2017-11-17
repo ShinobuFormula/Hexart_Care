@@ -3,7 +3,7 @@
 
 void setup()
 {
-  int i; //Déclaration de la variable i utiliser dans toute nos fonctions
+  int i; //Déclaration de la variable i utiliser dans toutes nos fonctions
 
  switch (choix) //Vérification de la valeur de notre macro écrite dans param.h par notre programme en C
  { 

@@ -18,7 +18,7 @@ void setup() {
  void draw() {
    //si la variable udSerial est disponible et qu'elle est supérieur à 0
   if (udSerial.available() > 0) {
-    //retourne toutes les dopnnées de SenVal en string
+    //retourne toutes les données de SenVal en string
     String SenVal = udSerial.readString();
     if (SenVal != null) {
       //print dans le doc battements les valeurs
