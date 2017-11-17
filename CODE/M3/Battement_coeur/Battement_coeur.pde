@@ -5,7 +5,7 @@ import processing.serial.*;
 //autorise les charactères à s'afficher dans un fichier externe (dans battement.csv)
 PrintWriter output;
 
-//variable qui sert à recevoir ou envoyer des données
+//serial est un objet qui sert à recevoir ou envoyer des données entre l'arduino et l'ordinateur
 Serial udSerial;
 
 void setup() 

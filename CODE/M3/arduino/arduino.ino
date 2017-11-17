@@ -6,7 +6,9 @@ void setup() {
 }
 
 void loop() {
-  //temps en millisecondes
+  //millis() : retourne le nombre en millisecondes depuis le lancement du programme
+  //la variable temps prends la valeur de millis()
+  //long car sinon dépassement de données au bou d'un certain temps.
   long temps = millis();
 
   //temps en secondes avec virgules
